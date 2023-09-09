@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+input, tr{
+    vertical-align: middle;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+label {
+    font-weight: bold;
+}
+
+.color-crimson{
+    color: crimson;
+}
+.btn-success,.card-success:not(.card-outline)>.card-header {
+    background-color: #00bc8c;
+}
+
+.btn-primary,.card-primary:not(.card-outline)>.card-header {
+    background-color: #3498db;
+}
+
+.btn-danger,.card-danger:not(.card-outline)>.card-header {
+    background-color: #e74c3c;
+}
+
+.ol.breadcrumb.float-sm-right {
+    width: 100% !important;
+    float: left  !important;
+}
